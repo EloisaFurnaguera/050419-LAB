@@ -27,10 +27,10 @@ def find_range(nums):
     if nums == []:
         return (None, None)
 
-    x = sorted(nums)
-    for i, num in enumerate(x):
+    sorted_num = sorted(nums)
+    for i, num in enumerate(sorted_num):
        
-        return (x[0] , x[-1])
+        return (sorted_num[0] , sorted_num[-1])
 
 
     
